@@ -20,7 +20,6 @@ module.exports = {
         tabWidth: 2,
         arrowParens: 'avoid',
         printWidth: 100,
-        singleQuote: true,
         trailingComma: 'all',
         endOfLine: 'crlf',
       },
