@@ -24,6 +24,8 @@ module.exports = {
         endOfLine: 'crlf',
       },
     ],
+    'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
+    'react/jsx-filename-extension': [2, { extensions: ['.js', 'jsx'] }],
     radix: 'off',
   },
 };
