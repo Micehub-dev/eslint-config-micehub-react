@@ -2,7 +2,7 @@ module.exports = {
   // eslint-configs
   extends: ['airbnb', 'plugin:prettier/recommended'],
   // eslint-plugins
-  plugins: ['import'],
+  plugins: ['import', 'jsx-a11y', 'prettier', 'react', 'react-hooks', 'react-redux', 'redux-saga'],
   // enabling/disabling/changing level of rules
   rules: {
     'class-methods-use-this': 'off',
