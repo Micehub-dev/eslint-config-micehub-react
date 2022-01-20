@@ -2,11 +2,11 @@ module.exports = {
   // eslint-configs
   extends: ['airbnb', 'plugin:prettier/recommended'],
   // eslint-plugins
-  plugins: ['simple-import-sort'],
+  plugins: ['import'],
   // enabling/disabling/changing level of rules
   rules: {
     'class-methods-use-this': 'off',
-    'import/imports-first': 0,
+    'import/first': 0,
     'import/order': 'warn',
     'import/prefer-default-export': 'off',
     'no-console': 'warn',
