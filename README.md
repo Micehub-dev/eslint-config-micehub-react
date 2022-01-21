@@ -110,3 +110,8 @@ npx eslint ./ --fix
 or
 npm run lint:fix
 ```
+### 설정이 업데이트 됐을 때 해당 설정을 사용하는 모든 프로젝트에서
+다음 코드를 실행하여 eslint-config-micehub-react 업데이트
+```
+npm install --save-dev github:Micehub-dev/eslint-config-micehub-react
+```
