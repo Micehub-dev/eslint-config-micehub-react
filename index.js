@@ -1,8 +1,8 @@
 module.exports = {
   // eslint-configs
-  extends: ['airbnb', 'plugin:prettier/recommended'],
+  extends: ['airbnb'],
   // eslint-plugins
-  plugins: ['import', 'jsx-a11y', 'prettier', 'react', 'react-hooks', 'react-redux', 'redux-saga'],
+  plugins: ['import', 'jsx-a11y', 'react', 'react-hooks', 'react-redux', 'redux-saga'],
   // enabling/disabling/changing level of rules
   rules: {
     'class-methods-use-this': 'off',
@@ -12,18 +12,6 @@ module.exports = {
     'no-console': 'warn',
     'no-plusplus': 'off',
     'no-restricted-globals': 'off',
-    'prettier/prettier': [
-      'error',
-      // configure Prettier for ESLint
-      {
-        useTabs: false,
-        tabWidth: 2,
-        arrowParens: 'avoid',
-        printWidth: 100,
-        trailingComma: 'all',
-        endOfLine: 'crlf',
-      },
-    ],
     'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
     'react/jsx-filename-extension': [2, { extensions: ['.js', 'jsx'] }],
     radix: 'off',
